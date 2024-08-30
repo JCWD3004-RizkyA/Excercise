@@ -16,3 +16,19 @@ for (let i = 0 ; i < (kata.length-1) ; i++) {
 }
 
 console.log(kataArr.join(""))
+
+
+//solusi dari instructor
+
+let targetCapitalize = "hello world";
+let resultCapitalize = "";
+
+for(let i = 0; i < targetCapitalize.length; i++) {
+    if (i=== 0 || targetCapitalize[i-1] === " ") {
+        resultCapitalize += targetCapitalize[i].toUpperCase();
+    } else {
+        resultCapitalize += targetCapitalize[i]
+    }
+}
+
+console.log (resultCapitalize);
