@@ -27,7 +27,7 @@ function sortArrWithoutFunc (checkArr) {
     }
     let averageValue = average / sortedArr.length 
 
-    console.log(console.log(`lowe value is ${sortedArr[0]} and higest value is ${checkArr[sortedArr.length -1]} , average value is ${averageValue}`))
+    console.log(console.log(`lower value is ${sortedArr[0]} and higest value is ${checkArr[sortedArr.length -1]} , average value is ${averageValue}`))
 
     
         function manualSortFunc (checkArr) {

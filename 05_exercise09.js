@@ -4,10 +4,10 @@
 function duplicateIs(arr) {
     let howMany = [];
     for (let i = 0  ; i <= (arr.length-1) ; i++) {
-        console.log(arr[i])
+        // console.log(arr[i])
         for (let j = 0 ; j <= (arr.length-1) ; j++) {
-            console.log(arr[j])
-            if ((arr[i] === arr[j])){
+            // console.log(arr[j]) 
+            if ((arr[i] === arr[j])) { //jangan sampaii dia menyamakan dengan array element dia sendiri pakai if berikutnya
                 if (i !== j) {
                     howMany.push(arr[i])
                     console.log (howMany)
@@ -17,7 +17,7 @@ function duplicateIs(arr) {
         }
     }
 
-    let howManyResult = []
+    let howManyResult = [] // ini berati kalau udah ada yang sama gk usah dimasukkin
     for (let i = 0 ; i <=(howMany.length-1) ;i++) {
         if (howMany[i] !== howMany [i-1]) {
             howManyResult.push(howMany[i])
