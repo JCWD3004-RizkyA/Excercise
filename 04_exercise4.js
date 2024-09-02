@@ -22,4 +22,4 @@ function BMI (weight , height) {
  return console.log(result)
 }
 
-console.log(BMI (73 , 175));
+console.log(BMI (70 , 175));

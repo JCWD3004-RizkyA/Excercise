@@ -16,7 +16,15 @@ function duplicateIs(arr) {
             }
         }
     }
-    return howMany
+
+    let howManyResult = []
+    for (let i = 0 ; i <=(howMany.length-1) ;i++) {
+        if (howMany[i] !== howMany [i-1]) {
+            howManyResult.push(howMany[i])
+        }
+    }
+
+    return howManyResult
 }
 
 console.log(duplicateIs([1, 2, 2, 2, 3, 3, 4, 5, 5]))

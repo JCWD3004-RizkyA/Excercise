@@ -7,10 +7,12 @@ function removeOdd(emptyArr) {
         
         if ( emptyArr[i] % 2 == 0) {
             resultArr.push(emptyArr[i]);
-        } else if (emptyArr[i] % 2 != 0) {
-            resultArr.pop 
+            //atau bisa ditulis resultArr[result.length] = emptyArr[i]
+        }
+        // } else if (emptyArr[i] % 2 != 0) {
+        //     resultArr.pop 
        
-        } 
+        // } 
     }
     return resultArr
 
