@@ -40,5 +40,3 @@ while (start < end){
 
 console.log (isPalindrome ? "Palindrome" : "Not a Palindrome")
 
-
-
