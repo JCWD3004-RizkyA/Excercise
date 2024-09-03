@@ -11,7 +11,7 @@ function findDifference (arr1, arr2) {
         }
     }
 
-    //arrCompare= [3,4,5]
+    //arrCompare= [3,4,5] : Nyari array yang sama dikedua arr1 dan arr2
 
    
         for (let k = 0 ; k< (arr1.length) ; k++) {

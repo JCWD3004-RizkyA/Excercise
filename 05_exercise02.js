@@ -7,9 +7,9 @@ let contoh = ["apple", "banana", "cherry", "date"];
 function lostSpace (arr) {
     let result = ""
     for (let i = 0 ; i <= (arr.length-2) ; i++) {
-        result = result + "," + arr[i]
+        result = result + "," + arr[i]              //tambah arr[i] yang sudah bersifat string
     }
-    result = result + ", and " + arr[arr.length-1]
+    result = result + ", and " + arr[arr.length-1]  // pengecualian untuk yang terakhir
     result = result.substring(1);
     return result 
 }
