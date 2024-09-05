@@ -1,7 +1,7 @@
 
 //Check if String is Palindrom 
 
-let testPalindromOrNot = "saippuakivikauppias";
+let testPalindromOrNot = "raceacar";
 console.log (testPalindromOrNot.length);
 let array = [];
 
@@ -31,7 +31,7 @@ let end = targetStr.length -1;
  
 while (start < end){
     if (targetStr[start] !== targetStr[end]) {
-        isPlaindrome = false;
+        isPalindrome = false;
         break;
     }
     start ++;
