@@ -44,3 +44,29 @@ function duplicateIs(arr) {
 
 console.log(duplicateSum(arr))
 
+
+//solution from instructor
+
+//menghitung jumlah kemunculan setiap kali looping
+for (let i = 0 ; i < arr.length; i++) {
+        if(seen[arr[i]]) {
+            seen[arr[i]]++;
+            console.log(seen);
+        } else {
+            seen[arr[i]] =1
+        }
+
+        for (let key in seen) {
+            if (seen[key] >1) {
+                sum += Number(key) * seen[key];
+            }
+        }
+        return sum;
+
+    }
+
+    let arr2 = [10,20,40,10,50,30,10,60,10];
+    console.log(sumOgDuplicates(arr2));
+
+
+

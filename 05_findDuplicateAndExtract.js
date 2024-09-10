@@ -27,4 +27,4 @@ function duplicateIs(arr) {
     return howManyResult
 }
 
-console.log(duplicateIs([1, 2, 2, 2, 3, 3, 4, 5, 5 , 1])) //cuman ini gk berfungsi kalau duplicate nya terpisah di belakang  
+console.log(duplicateIs([2,2,1])) //cuman ini gk berfungsi kalau duplicate nya terpisah di belakang  

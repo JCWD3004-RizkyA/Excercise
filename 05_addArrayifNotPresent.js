@@ -28,7 +28,7 @@
 //solution dari instructor
 function addUniqueElement(arr,newElement) {
     if (arr.indexOf(newElement) === -1) { //ini untuk mencari sesuatu yang tidak ada di array!!!
-        arr.push(newElement);
+        arr.push(newElement);             //return indexOf akan mengembalikan nilai index posisi array 
     }
     return arr;
 }
@@ -36,6 +36,4 @@ function addUniqueElement(arr,newElement) {
 const newElement = 7;
 const arr = [1,2,3,4];
 console.log(addUniqueElement(arr, newElement));
-
-
-
+//mencoba git tanpa add
